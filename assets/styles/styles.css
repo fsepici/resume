@@ -1,0 +1,27 @@
+:root{
+    --primary:#faa7f4;
+    --secondary:#f798ab;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--primary);
+}
+
+.navbar-container{
+width: 100%;
+height: 5rem;
+background-color: var(--secondary);
+}
+
+.main-container{
+width: 100%;
+height: 35rem;
+background-color: var(--secondary);
+margin-bottom: 30px;
+}
+
